@@ -41,8 +41,7 @@
 }
 
 .container-top img{
-    width: 905px;
-    height: 446px;
+    width: 100%;
 }
 
 .product-lineup {
@@ -53,7 +52,6 @@
 .product {
     margin-top: 30px;
     width: 966px;
-    background-color: blanchedalmond;
     display: flex;
     flex-wrap: wrap;
 }
@@ -65,10 +63,11 @@
     width: 320px;
     box-sizing: border-box;
     background-color: #cccccc;
+    padding-bottom: 20px;
 }
 
 .item-img {
-    width: 260px;
+    width: 320px;
     height: 213px;
 }
 
@@ -85,4 +84,5 @@
 .footer {
     text-align: center;
     font-size: 10px;
+    padding: 20px;
 }
