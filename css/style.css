@@ -1,0 +1,88 @@
+@import url("reset.css");
+.wrap {
+    width: 966px;
+    margin: auto;
+}
+
+.top {
+    margin-top: 20px;
+    position: relative;
+    width: 966px;
+}
+
+.cart {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    height: 30px;
+}
+
+.logo {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.nav {
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav li a {
+    text-decoration: none;
+    display:block;/*設定為區塊*/
+    padding:3px;
+    margin: 50px;
+}
+
+.container {
+    width: 966px;
+    text-align: center;
+}
+
+.container-top img{
+    width: 905px;
+    height: 446px;
+}
+
+.product-lineup {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.product {
+    margin-top: 30px;
+    width: 966px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    width: 320px;
+    box-sizing: border-box;
+    background-color: #cccccc;
+}
+
+.item-img {
+    width: 260px;
+    height: 213px;
+}
+
+.item-title {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.item-price {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+}
